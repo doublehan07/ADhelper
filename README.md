@@ -1,5 +1,5 @@
 # ADhelper
-If you can not start up your Altium Designer, you can try this bash :)
+If you can not start up your `Altium Designer`, you can try this batch :)
 
 The version of my AD is `15.0.15(Build 41991)`.
 
