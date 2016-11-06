@@ -1,6 +1,6 @@
 @echo off
 echo Stop DXP.exe ...
-rem tskill DXP
+tskill DXP
 
 echo Delete ADVPCB.DFT
 dir /s/a/b C:\Users\ADVPCB.DFT >tempFile
