@@ -9,10 +9,21 @@ rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
 	if %%~zf. neq 0. del "%tempVal%"
 )
-
+dir /s/a/b C:\Documents and Settings\ADVPCB.DFT >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
 
 echo Delete Advsch.dft
 dir /s/a/b C:\Users\Advsch.dft >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
+dir /s/a/b C:\Documents and Settings\Advsch.dft >tempFile
 set /p tempVal=<tempFile
 rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
@@ -26,9 +37,21 @@ rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
 	if %%~zf. neq 0. del "%tempVal%"
 )
+dir /s/a/b C:\Documents and Settings\Advsch.MMsdft >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
 
 echo Delete DXP.RAF
 dir /s/a/b C:\Users\DXP.RAF >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
+dir /s/a/b C:\Documents and Settings\DXP.RAF >tempFile
 set /p tempVal=<tempFile
 rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
@@ -42,9 +65,21 @@ rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
 	if %%~zf. neq 0. del "%tempVal%"
 )
+dir /s/a/b C:\Documents and Settings\DXP.RCS >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
 
 echo Delete UserTools.TLT
 dir /s/a/b C:\Users\UserTools.TLT >tempFile
+set /p tempVal=<tempFile
+rem echo %tempVal%
+for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
+	if %%~zf. neq 0. del "%tempVal%"
+)
+dir /s/a/b C:\Documents and Settings\UserTools.TLT >tempFile
 set /p tempVal=<tempFile
 rem echo %tempVal%
 for /f "delims=" %%f in ('dir /b /s /a-d tempFile') do (
